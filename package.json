@@ -1,0 +1,24 @@
+{
+  "name": "bricksjs",
+  "version": "0.0.1",
+  "description": "A javascript utility library",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  },
+  "keywords": [
+    "lodash",
+    "lodash-es",
+    "bricksjs",
+    "szchason"
+  ],
+  "author": "szchason",
+  "bugs": {
+    "url": "https://github.com/szchason/bricksjs/issues"
+  },
+  "homepage": "https://github.com/szchason/bricksjs#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "only-allow": "^1.1.1"
+  }
+}
