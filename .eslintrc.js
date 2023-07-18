@@ -1,10 +1,23 @@
 module.exports = {
-  extends: ['airbnb-base', 'plugin:@typescript-eslint/recommended'],
+  root: true,
+  env: {
+    browser: true,
+    node: true,
+    jest: true,
+  },
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+  },
+  extends: [
+    'airbnb-base',
+    'plugin:import/recommended',
+    'plugin:@typescript-eslint/recommended',
+  ],
   settings: {
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts'],
     },
-    'import/extensions': ['.js', '.ts', '.json'],
     'import/resolver': {
       typescript: {
         alwaysTryTypes: true,
@@ -12,11 +25,13 @@ module.exports = {
     },
   },
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint'],
-  ignorePatterns: ['dist', 'types'],
+  plugins: ['import', '@typescript-eslint'],
   rules: {
-    'import/prefer-default-export': 'off',
-    'import/no-extraneous-dependencies': 'off',
-    '@typescript-eslint/ban-ts-comment': 'error',
+    'import/prefer-default-export': ['warn', { target: 'single' }],
+    'import/no-extraneous-dependencies': [
+      'error',
+      { bundledDependencies: false },
+    ],
   },
+  ignorePatterns: ['node_modules', 'dist', 'docs', 'types', '.dumi'],
 };

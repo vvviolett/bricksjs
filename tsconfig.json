@@ -1,9 +1,12 @@
 {
   "compilerOptions": {
-    "declaration": true,
-    "declarationDir": "types",
-    "emitDeclarationOnly": true
+    "lib": ["ESNext", "DOM"],
+    "module": "ESNext",
+    "baseUrl": ".",
+    "paths": {
+      "@lib/*": ["./lib/*"]
+    }
   },
-  "include": ["src/*.ts"],
+  "include": ["src/*.ts", "lib/*.ts", "spec/**/*.ts"],
   "exclude": ["node_modules"]
 }

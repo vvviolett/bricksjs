@@ -1,8 +1,11 @@
 {
+  "extends": ["./tsconfig.json"],
   "compilerOptions": {
-    "lib": ["ESNext"],
-    "target": "ES2015",
+    "removeComments": true,
+    "declaration": false,
+    "target": "ESNext",
     "noEmit": true
   },
-  "exclude": ["node_modules", "lib/**/*.spec.ts"]
+  "include": ["src/*.ts", "lib/*.ts"],
+  "exclude": ["node_modules", "spec/**/*.ts"]
 }

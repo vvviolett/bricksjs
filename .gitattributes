@@ -1,4 +1,4 @@
-*.js    eol=lf
-*.ts    eol=lf
-*.json  eol=lf
-*.yml   eol=lf
+*.js    text eol=lf
+*.ts    text eol=lf
+*.json  text eol=lf
+*.yml   text eol=lf

@@ -8,6 +8,10 @@ gen
 # Ignore the node_modules directory
 node_modules/
 
+# Ignore the cache directory
+tmp
+tmp-*
+
 # Ignore Logs file
 logs
 *.log
