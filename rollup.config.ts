@@ -11,6 +11,9 @@ const browserTarget = {
   ie: '11',
 };
 
+/**
+ * babel config
+ */
 function getBabelConfig(target) {
   return getBabelOutputPlugin({
     presets: [
@@ -28,6 +31,9 @@ function getBabelConfig(target) {
   });
 }
 
+/**
+ * rollup config
+ */
 export default [
   {
     input: 'src/browser.ts',

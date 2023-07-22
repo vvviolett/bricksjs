@@ -3,6 +3,6 @@
   "compilerOptions": {
     "esModuleInterop": true
   },
-  "include": ["spec/**/*.ts"],
+  "include": ["specs/**/*.ts"],
   "exclude": ["node_modules", "src/*.ts", "lib/*.ts"]
 }

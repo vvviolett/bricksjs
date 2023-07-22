@@ -2,36 +2,53 @@ module.exports = {
   root: true,
   env: {
     browser: true,
-    node: true,
-    jest: true,
+    es2021: true,
   },
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
+  overrides: [
+    {
+      env: {
+        node: true,
+      },
+      files: ['.eslintrc.{js,cjs}'],
+      parserOptions: {
+        sourceType: 'script',
+      },
+    },
+    {
+      env: {
+        'jest/globals': true,
+      },
+      files: ['specs/**'],
+      settings: {
+        jest: {
+          version: require('jest/package.json').version,
+        },
+      },
+      plugins: ['jest'],
+      extends: ['plugin:jest/recommended'],
+      rules: {},
+    },
+  ],
   extends: [
-    'airbnb-base',
+    'eslint:recommended',
     'plugin:import/recommended',
     'plugin:@typescript-eslint/recommended',
   ],
   settings: {
-    'import/parsers': {
-      '@typescript-eslint/parser': ['.ts'],
-    },
     'import/resolver': {
-      typescript: {
-        alwaysTryTypes: true,
+      alias: {
+        map: [['@lib', './lib']],
+        extensions: ['.ts', '.d.ts', '.js', '.json'],
       },
     },
   },
   parser: '@typescript-eslint/parser',
   plugins: ['import', '@typescript-eslint'],
   rules: {
-    'import/prefer-default-export': ['warn', { target: 'single' }],
-    'import/no-extraneous-dependencies': [
-      'error',
-      { bundledDependencies: false },
-    ],
+    '@typescript-eslint/no-var-requires': 'off',
   },
-  ignorePatterns: ['node_modules', 'dist', 'docs', 'types', '.dumi'],
 };
