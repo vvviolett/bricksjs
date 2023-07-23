@@ -2,6 +2,8 @@
 dist/**
 .dumi
 coverage
+pnpm-lock.yaml
+*.md
 
 **/.git
 **/.svn
