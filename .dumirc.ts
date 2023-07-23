@@ -1,8 +1,9 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
-  base: '/',
-  outputPath: 'docs/build',
+  title: 'bricksjs',
+  publicPath: '/bricksjs/',
+  outputPath: 'build',
   themeConfig: {
     name: 'bricksjs',
   },

@@ -7,6 +7,7 @@ gen
 
 # Ignore the node_modules directory
 node_modules/
+docs/build/
 
 # Ignore the cache directory
 .cache
