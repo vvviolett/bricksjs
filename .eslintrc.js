@@ -47,8 +47,9 @@ module.exports = {
     },
   },
   parser: '@typescript-eslint/parser',
-  plugins: ['import', '@typescript-eslint'],
+  plugins: ['import', 'prettier', '@typescript-eslint'],
   rules: {
+    'prettier/prettier': 'error',
     '@typescript-eslint/no-var-requires': 'off',
   },
 };

@@ -1,22 +1,23 @@
 ---
 hero:
-  title: library
-  description: da
+  title: bricksjs
+  description: A javascript utility library
   actions:
-    - text: Hello
-      link: /
-    - text: World
-      link: /
+    - text: Get Started
+      link: /docs/get-started
+    - text: API Docs
+      link: /docs/docs
 features:
-  - title: Hello
+  - title: ES Modules
     emoji: 💎
-    description: Put hello description here
-  - title: World
+    description: 支持浏览器端的ES Modules
+  - title: Commonjs
     emoji: 🌈
-    description: Put world description here
-  - title: '!'
+    description: 支持Node端的require
+  - title: 'Typescript'
     emoji: 🚀
-    description: Put ! description here
+    description: 支持Typescript
+  - title: 'Jest'
+    emoji: 🚀
+    description: 足够的单元测试
 ---
-
-da
