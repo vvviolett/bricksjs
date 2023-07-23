@@ -1,11 +1,12 @@
 import { defineConfig } from 'dumi';
 
-const serverPath = process.env.NODE_ENV === 'production' ? '/bricksjs' : '/';
+const serverBasePath = process.env.NODE_ENV === 'production' ? '/bricksjs' : '/';
+const serverPublicPath = process.env.NODE_ENV === 'production' ? '/bricksjs/' : '/';
 
 export default defineConfig({
   title: 'bricksjs',
-  base: serverPath,
-  publicPath: serverPath,
+  base: serverBasePath,
+  publicPath: serverPublicPath,
   outputPath: './docs/build',
   favicons: ['/favicon.ico'],
   themeConfig: {
