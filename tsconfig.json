@@ -5,9 +5,9 @@
     "module": "ESNext",
     "baseUrl": ".",
     "paths": {
-      "@lib/*": ["./lib/*"]
+      "@src/*": ["./src/*"]
     }
   },
-  "include": ["src/*.ts", "lib/*.ts", "specs/**/*.ts"],
+  "include": ["src/*.ts", "specs/**/*.ts"],
   "exclude": ["node_modules"]
 }

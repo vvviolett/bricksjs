@@ -41,7 +41,7 @@ module.exports = {
   settings: {
     'import/resolver': {
       alias: {
-        map: [['@lib', './lib']],
+        map: [['@src', './src']],
         extensions: ['.ts', '.d.ts', '.js', '.json'],
       },
     },

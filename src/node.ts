@@ -1,2 +1,2 @@
-export { isNumber } from '@lib/isNumber';
-export { isString } from '@lib/isString';
+export { isNumber } from '@src/isNumber';
+export { isString } from '@src/isString';
