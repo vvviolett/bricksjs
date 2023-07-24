@@ -25,4 +25,5 @@ export default defineConfig({
       github: 'https://github.com/szchason/bricksjs',
     },
   },
+  metas: [{ name: 'referrer', content: 'no-referrer' }],
 });
