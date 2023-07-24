@@ -1,6 +1,7 @@
 export default {
   preset: 'ts-jest',
   testEnvironment: 'node',
+  collectCoverage: true,
   transform: {
     '^.+\\.ts$': [
       'ts-jest',

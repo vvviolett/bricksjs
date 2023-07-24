@@ -63,7 +63,8 @@ module.exports = {
     commitMessage: 'chore: release v${version}',
   },
   hooks: {
-    'before:init': ['npx lint-staged', 'npm run test'],
+    'before:init': ['npx lint-staged', 'npm run test', 'npm run build'],
+    'after:bump': 'echo 更新版本成功',
   },
   npm: {
     publish: true,
