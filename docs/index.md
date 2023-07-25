@@ -1,4 +1,5 @@
 ---
+title: bricksjs
 hero:
   title: bricksjs
   description: A javascript utility library
@@ -9,15 +10,15 @@ hero:
       link: /docs/docs
 features:
   - title: ES Modules
-    emoji: 💎
+    emoji: 🚀
     description: 支持浏览器端的ES Modules
   - title: Commonjs
-    emoji: 🌈
+    emoji: 📔
     description: 支持Node端的require
   - title: 'Typescript'
-    emoji: 🚀
+    emoji: 📚
     description: 支持Typescript
   - title: 'Jest'
-    emoji: 🚀
+    emoji: 🔔
     description: 足够的单元测试
 ---
