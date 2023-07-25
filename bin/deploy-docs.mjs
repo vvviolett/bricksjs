@@ -1,5 +1,4 @@
-// eslint-disable-next-line import/no-unresolved
-import fetch from 'node-fetch';
+import axios from 'axios';
 import { execSync } from 'child_process';
 
 let github_token = '';
@@ -12,25 +11,28 @@ try {
 }
 
 if (!github_token) {
-  throw Error('缺少远程构建token');
+  throw Error('缺少github_token');
 }
 
-fetch(github_url, {
+const raw = JSON.stringify({
+  event_type: 'deploy',
+});
+
+const config = {
   method: 'post',
-  body: JSON.stringify({
-    event_type: 'deploy',
-    client_payload: {},
-  }),
+  url: github_url,
   headers: {
-    Authorization: github_token,
     Accept: 'application/vnd.github.everest-preview+json',
     'Content-Type': 'application/json',
+    Authorization: 'Basic OmdocF9sMWhrUVcySUdFVTdOaGh5NEtQQVJhNnBKNjhZTlQxUThvQVM=',
   },
-})
-  .then((response) => response.json())
-  .then((res) => {
-    console.log(res);
+  data: raw,
+};
+
+axios(config)
+  .then(function (response) {
+    console.log(JSON.stringify(response.data));
   })
-  .catch((err) => {
-    console.log(err, '<---err');
+  .catch(function (error) {
+    console.log(error);
   });
