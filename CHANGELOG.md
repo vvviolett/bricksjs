@@ -1,5 +1,12 @@
 # 更新日志
 
+## [0.4.0](https://github.com/szchason/bricksjs/compare/0.3.0...0.4.0) (2023-07-29)
+
+
+### ✨ Features | 新功能
+
+* test npm publish ([59da86c](https://github.com/szchason/bricksjs/commit/59da86c3120dc182dd56936fd821199619f913e9))
+
 ## 0.3.0 (2023-07-29)
 
 
