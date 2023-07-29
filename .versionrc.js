@@ -66,9 +66,6 @@ module.exports = {
     'before:init': ['npx lint-staged', 'npm run test'],
     'after:bump': 'echo 更新版本成功',
   },
-  npm: {
-    publish: true,
-  },
   github: {
     release: true,
   },
