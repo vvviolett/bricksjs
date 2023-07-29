@@ -16,6 +16,7 @@ if (!github_token) {
 
 const raw = JSON.stringify({
   event_type: 'deploy',
+  client_payload: {},
 });
 
 const config = {
