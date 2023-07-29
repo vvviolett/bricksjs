@@ -38,6 +38,10 @@
     "bricksjs",
     "szchason"
   ],
+  "files": [
+    "dist",
+    "types"
+  ],
   "author": "szchason",
   "publishConfig": {
     "access": "public"
