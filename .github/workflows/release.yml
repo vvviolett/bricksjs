@@ -1,6 +1,7 @@
 name: Release & Publish to NPM
 on:
   release:
+    types: [published]
 
 jobs:
   release:
