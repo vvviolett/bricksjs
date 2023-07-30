@@ -1,6 +1,7 @@
 # Ignore artifacts:
 dist/**
 .dumi
+types
 coverage
 pnpm-lock.yaml
 *.md
