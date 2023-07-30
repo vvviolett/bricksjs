@@ -61,6 +61,11 @@ module.exports = {
   git: {
     requireBranch: 'main',
     commitMessage: 'chore: release v${version}',
+    push: true,
+    commit: true,
+    tag: true,
+    requireCommits: false,
+    requireCleanWorkingDir: false,
   },
   hooks: {
     'before:init': ['npx lint-staged', 'npm run test'],
@@ -71,5 +76,6 @@ module.exports = {
   },
   github: {
     release: true,
+    draft: true,
   },
 };
