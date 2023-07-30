@@ -1,5 +1,5 @@
 {
-  "name": "bricksjs",
+  "name": "obrick",
   "version": "0.4.0",
   "description": "A javascript utility library",
   "main": "./dist/index.cjs.js",
