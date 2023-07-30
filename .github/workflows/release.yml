@@ -46,8 +46,6 @@ jobs:
           cache: 'pnpm'
       - name: Install dependencies
         run: pnpm install
-      - name: Run build
-        run: pnpm build
       - name: Initialise the NPM config
         run: npm config set //registry.npmjs.org:_authToken $NPM_TOKEN
       - name: Run release
