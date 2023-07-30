@@ -72,7 +72,8 @@ module.exports = {
     'after:bump': 'echo 更新版本成功',
   },
   npm: {
-    publish: true,
+    publish: false,
+    ignoreVersion: false,
   },
   github: {
     release: true,
