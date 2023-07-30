@@ -26,6 +26,7 @@
     "docs:dev": "cross-env NODE_ENV=development dumi dev docs",
     "docs:build": "cross-env NODE_ENV=production dumi build docs",
     "publish": "release-it -c .versionrc.js",
+    "release": "release-it --ci",
     "deploy:docs": "node bin/deploy-docs.mjs",
     "clean": "rimraf dist/ types/",
     "eslint": "eslint **/*.{ts,js}",
@@ -44,7 +45,8 @@
   ],
   "author": "szchason",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
   "bugs": {
     "url": "https://github.com/szchason/bricksjs/issues"
