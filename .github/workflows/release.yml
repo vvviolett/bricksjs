@@ -1,6 +1,11 @@
 name: Release & Publish to NPM
 on:
   workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  actions: write
+
 jobs:
   release:
     runs-on: ubuntu-latest
