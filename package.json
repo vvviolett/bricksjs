@@ -26,7 +26,7 @@
     "docs:dev": "cross-env NODE_ENV=development dumi dev docs",
     "docs:build": "cross-env NODE_ENV=production dumi build docs",
     "publish": "release-it -c .versionrc.js",
-    "release": "release-it -c .versionrc.js",
+    "release": "release-it",
     "deploy:docs": "node bin/deploy-docs.mjs",
     "clean": "rimraf dist/ types/",
     "eslint": "eslint **/*.{ts,js}",
