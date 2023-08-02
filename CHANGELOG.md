@@ -1,5 +1,12 @@
 # 更新日志
 
+## [2.4.0](https://github.com/szchason/bricksjs/compare/2.3.1...2.4.0) (2023-08-02)
+
+
+### ✨ Features | 新功能
+
+* test ([3724569](https://github.com/szchason/bricksjs/commit/37245698228d0cb38efe0636a6a48014687b6529))
+
 ## [2.3.1](https://github.com/szchason/bricksjs/compare/2.3.0...2.3.1) (2023-08-02)
 
 ## [2.3.0](https://github.com/szchason/bricksjs/compare/2.2.0...2.3.0) (2023-08-02)
