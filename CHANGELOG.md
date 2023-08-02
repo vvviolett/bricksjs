@@ -1,5 +1,12 @@
 # 更新日志
 
+## [2.2.0](https://github.com/szchason/bricksjs/compare/2.1.0...2.2.0) (2023-08-02)
+
+
+### ✨ Features | 新功能
+
+* modify yml ([b0fb8b1](https://github.com/szchason/bricksjs/commit/b0fb8b1f5bd49530ef154c56c2a87a5ee0fe3244))
+
 ## [2.1.0](https://github.com/szchason/bricksjs/compare/0.4.0...2.1.0) (2023-08-02)
 
 
