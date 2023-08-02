@@ -1,5 +1,7 @@
 # 更新日志
 
+## [2.3.1](https://github.com/szchason/bricksjs/compare/2.3.0...2.3.1) (2023-08-02)
+
 ## [2.3.0](https://github.com/szchason/bricksjs/compare/2.2.0...2.3.0) (2023-08-02)
 
 
