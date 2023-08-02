@@ -1,5 +1,36 @@
 # 更新日志
 
+## [2.1.0](https://github.com/szchason/bricksjs/compare/0.4.0...2.1.0) (2023-08-02)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* error ([9f0f6ec](https://github.com/szchason/bricksjs/commit/9f0f6ecac84d129135bd487791c2420d9dd7f660))
+
+
+### ✨ Features | 新功能
+
+* add ([18033ca](https://github.com/szchason/bricksjs/commit/18033cae1a959ade9856fa8acb1adc70df317217))
+* add ACTION_TOKEN ([c05afc0](https://github.com/szchason/bricksjs/commit/c05afc008b61810b46b4e17c68594a511dffaeec))
+* add ACTION_TOKEN ([2e9ebd5](https://github.com/szchason/bricksjs/commit/2e9ebd5222648eefe917a745a4efc97b036da414))
+* commit ([b6b2fdb](https://github.com/szchason/bricksjs/commit/b6b2fdb7e840dfa4e4addda97fed08255f11d826))
+* commit ([32301b4](https://github.com/szchason/bricksjs/commit/32301b480719b41572ff46870bbb0c7d7fdec2f0))
+* delete npmrc ([38f0171](https://github.com/szchason/bricksjs/commit/38f0171c1a3d7d25413300789e37c587d94eb61f))
+* delete release.yml ([6c44d64](https://github.com/szchason/bricksjs/commit/6c44d643d9cf3ddf63061dec252de221b596f3e9))
+* modify ([590c3dd](https://github.com/szchason/bricksjs/commit/590c3dd0d0649989d74fea567e4550e6d1523963))
+* modify ([901ef1a](https://github.com/szchason/bricksjs/commit/901ef1aacc71ff2674364aa068cfb5ae779aedd4))
+* modify ci ([2d24003](https://github.com/szchason/bricksjs/commit/2d240038270218d89b6ddbe6c84133c18995bcaf))
+* modify package.json ([67abd76](https://github.com/szchason/bricksjs/commit/67abd76f17ba23e5ab6dac2c9b8a3700a399c7bc))
+* modify package.json ([7af650b](https://github.com/szchason/bricksjs/commit/7af650b51f9a3edbf20da7d225a876cfacbef12e))
+* modify versionrc.js ([c5f4561](https://github.com/szchason/bricksjs/commit/c5f45619fd44e80c753546379b1ae157ea04b361))
+* modify versionrc.js ([209c2f2](https://github.com/szchason/bricksjs/commit/209c2f2f65f0d639f915e7f99003e90769806798))
+* modify versionrc.js ([57470cb](https://github.com/szchason/bricksjs/commit/57470cb2eb09c2464363add691c9d4b65691e505))
+* test ([da66b4d](https://github.com/szchason/bricksjs/commit/da66b4d5ca58aaab6b3d906b2694a83c43319036))
+* test ([2fea0b6](https://github.com/szchason/bricksjs/commit/2fea0b637e77adff66bf46319ece315d92dbd728))
+* test ([e390719](https://github.com/szchason/bricksjs/commit/e390719148bf6f7b88b1b287de858cb1f4ac68e5))
+* test ([d10fc41](https://github.com/szchason/bricksjs/commit/d10fc41c1a483c79dcd686a65b8f7feea12ce3a8))
+* test ([4b7773a](https://github.com/szchason/bricksjs/commit/4b7773a3e93c76f5c019aee3b523035a69acd039))
+
 ## [0.4.0](https://github.com/szchason/bricksjs/compare/0.3.0...0.4.0) (2023-07-29)
 
 
